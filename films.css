@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+ }
+ header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #D9D9D9;
+   padding: 0;
+ }
+ 
+ .button {
+   margin-right: 60px;
+   width: 50px;
+   height: 50px;
+ }
+ .menu .text {
+   border-radius: 219px;
+   background-color: #2B2B2B;
+   color: white;
+   width: 200px;
+   height: 30px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+ }
+ .menu a {
+   color: white;
+   text-decoration: none;
+   margin-right: 62px;
+ }
+ 
+ .menu {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+ 
+ .main_video {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: black;
+   color: white; 
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   padding: 20px;
+ 
+ }
+ .video {
+   background-color: rgba(43, 43, 43, 0.8);
+   border-radius: 103px;
+   padding: 66px;
+   backdrop-filter: blur(50%);
+ }
+ 
+ .video a {
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .right_menu a {
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .right_menu {
+   width: 200px;
+   background-color: #111;
+   padding: 20px;
+   
+   display: flex;
+   align-items: center;
+   margin-top: 50px;
+   flex-direction: column;
+   text-decoration: none;
+   margin: 0;
+   border-right: 1px solid #D9D9D9;
+ }
+ .menus-items {
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 10px;
+ }
+ 
+ .right-menu a {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   color: white;
+   text-decoration: none;
+   padding: 10px 0;
+ }
+ .main_menu {
+   border-bottom: 1px solid #D9D9D9;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ 
+ .other {
+   border-bottom: 1px solid #D9D9D9;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ 
+ .subs {
+   border-bottom: 1px solid #D9D9D9;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ .text-menus {
+   display: flex;
+   align-items: center;
+ justify-content: center;
+ }
+ 
+ main {
+   display: flex;
+ }
